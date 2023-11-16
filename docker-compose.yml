@@ -1,0 +1,7 @@
+services:
+  script:
+    build: .
+    volumes:
+      - .:/code
+    env_file:
+      - .env
